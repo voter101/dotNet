@@ -6,12 +6,13 @@ using System.Threading.Tasks;
 
 namespace _2._1._2
 {
+    
     class Grid
     {
         int[][] siatka;
 
 
-
+       
         public Grid(int x, int y)
         {
             siatka = new int[x][];
@@ -20,6 +21,7 @@ namespace _2._1._2
                 siatka[i] = new int[y];
             }
         } 
+        
         public int[] this[int indeks]
         {
             get
@@ -27,8 +29,10 @@ namespace _2._1._2
                 return this.siatka[indeks];
             }
         }
+        
         public int this[int indeks, int indeks2]
         {
+            
             get
             {
                 return this.siatka[indeks][indeks2];
