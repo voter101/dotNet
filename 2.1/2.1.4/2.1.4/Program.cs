@@ -1,46 +1,64 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Reflection;
-using System.IO;
 
-namespace _2._1._4
+namespace ConsoleApplication1
 {
     class Program
     {
-        static void PrintTypeInfo(Type t)
+        static void ListMethods(object obj)
         {
-            Console.WriteLine("Definicja {0} znajduje sie w  module {1}.", t, t.Module);
-        } 
+            var methods = obj.GetType().GetMethods();
+            foreach (var methodInfo in methods)
+            {
+                if (methodInfo.IsPublic && !methodInfo.IsStatic && methodInfo.ReturnType == typeof(int) &&
+                    methodInfo.GetParameters().Length == 0)
+                {
+                    if (methodInfo.GetCustomAttributes(typeof(OznakowaneAttribute), false).Length > 0)
+                        Console.WriteLine(methodInfo.Name);
+                }
+            }
+        }
+
         static void Main(string[] args)
         {
-            string s = String.Empty;
-            PrintTypeInfo(s.GetType());
+            ListMethods(new Klasa(5));
 
-            Type t = Type.GetType("_2._1._4.Program");
-            PrintTypeInfo(t);
-            Console.ReadLine();
+            Console.ReadKey();
         }
-
     }
+}
 
-
-    public class Oznakowane : Attribute
+class Klasa
+{
+    public Klasa(int d)
     {
+        Dane = d;
     }
-    public class HelloWorld
-    {
-        [Oznakowane]
-        public int bar()
-        {
-            return 1;
-        }
 
-        public int Qux()
-        {
-            return 2;
-        }
+    private int Dane { get; set; }
+
+    private int Dodaj(int a, int b)
+    {
+        return a + b;
     }
+
+    private int Pięć()
+    {
+        return 5;
+    }
+
+    public int Foo()
+    {
+        return 5;
+    }
+
+    [Oznakowane]
+    public int Bar()
+    {
+        return 6;
+    }
+}
+
+class OznakowaneAttribute : Attribute
+{
 }
