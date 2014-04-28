@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>2.1.5</name>
+    </assembly>
+    <members>
+        <member name="T:Grid.Grid">
+            <summary>
+             Klasa z Indekserem
+            </summary>
+        </member>
+        <member name="M:Grid.Grid.#ctor(System.Int32,System.Int32)">
+            <summary>
+            Metoda tworzaca sietke o zadanych parametrach
+            </summary>
+            <param name="x"></param>
+            <param name="y"></param>
+        </member>
+        <member name="P:Grid.Grid.Item(System.Int32)">
+            <summary>
+            Indekser jedno wymiarowy ktory zwraca jeden wymiar tablicy
+            </summary>
+            <param name="indeks"></param>
+            <returns></returns>
+        </member>
+        <member name="P:Grid.Grid.Item(System.Int32,System.Int32)">
+            <summary>
+            Indekser wielowymiarowy ktory zwraca konkretna wartosc 
+            </summary>
+            <param name="indeks"></param>
+            <param name="indeks2"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
