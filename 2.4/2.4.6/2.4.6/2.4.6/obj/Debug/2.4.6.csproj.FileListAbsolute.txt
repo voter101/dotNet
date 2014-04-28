@@ -1,0 +1,6 @@
+C:\Users\Paweł\Documents\GitHub\dotNet\2.4\2.4.6\2.4.6\2.4.6\bin\Debug\2.4.6.exe.config
+C:\Users\Paweł\Documents\GitHub\dotNet\2.4\2.4.6\2.4.6\2.4.6\bin\Debug\2.4.6.exe
+C:\Users\Paweł\Documents\GitHub\dotNet\2.4\2.4.6\2.4.6\2.4.6\bin\Debug\2.4.6.pdb
+C:\Users\Paweł\Documents\GitHub\dotNet\2.4\2.4.6\2.4.6\2.4.6\obj\Debug\2.4.6.csprojResolveAssemblyReference.cache
+C:\Users\Paweł\Documents\GitHub\dotNet\2.4\2.4.6\2.4.6\2.4.6\obj\Debug\2.4.6.exe
+C:\Users\Paweł\Documents\GitHub\dotNet\2.4\2.4.6\2.4.6\2.4.6\obj\Debug\2.4.6.pdb

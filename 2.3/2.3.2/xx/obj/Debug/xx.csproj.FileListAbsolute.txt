@@ -1,0 +1,5 @@
+C:\Users\Paweł\Documents\GitHub\dotNet\Nowy folder\xx\xx\bin\Debug\xx.exe
+C:\Users\Paweł\Documents\GitHub\dotNet\Nowy folder\xx\xx\bin\Debug\xx.pdb
+C:\Users\Paweł\Documents\GitHub\dotNet\Nowy folder\xx\xx\obj\Debug\xx.csprojResolveAssemblyReference.cache
+C:\Users\Paweł\Documents\GitHub\dotNet\Nowy folder\xx\xx\obj\Debug\xx.exe
+C:\Users\Paweł\Documents\GitHub\dotNet\Nowy folder\xx\xx\obj\Debug\xx.pdb

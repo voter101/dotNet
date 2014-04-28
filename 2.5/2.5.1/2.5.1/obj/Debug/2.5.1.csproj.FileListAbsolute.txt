@@ -1,0 +1,6 @@
+C:\Users\Paweł\Documents\GitHub\dotNet\2.5\2.5.1\2.5.1\bin\Debug\2.5.1.exe.config
+C:\Users\Paweł\Documents\GitHub\dotNet\2.5\2.5.1\2.5.1\bin\Debug\2.5.1.exe
+C:\Users\Paweł\Documents\GitHub\dotNet\2.5\2.5.1\2.5.1\bin\Debug\2.5.1.pdb
+C:\Users\Paweł\Documents\GitHub\dotNet\2.5\2.5.1\2.5.1\obj\Debug\2.5.1.csprojResolveAssemblyReference.cache
+C:\Users\Paweł\Documents\GitHub\dotNet\2.5\2.5.1\2.5.1\obj\Debug\2.5.1.exe
+C:\Users\Paweł\Documents\GitHub\dotNet\2.5\2.5.1\2.5.1\obj\Debug\2.5.1.pdb
