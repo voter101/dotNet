@@ -12,22 +12,17 @@ namespace _2._4._6
         {
             var logi = System.IO.File.ReadAllLines(@"logi.txt");
 
-            var listaLogow = from log in logi
+            var ips = from log in logi
                              let poszatkowanyLog = log.Split(' ')
-                             select new { CZAS = poszatkowanyLog[0], IP = poszatkowanyLog[1], TYP = poszatkowanyLog[2], ZASOB = poszatkowanyLog[3], STATUS = poszatkowanyLog[4] };
+                             group poszatkowanyLog by poszatkowanyLog[1] into a
+                             orderby a.Count() descending
+                             select new { ip = a.Key, count = a.Count() };
 
-            var listaIp = from log in listaLogow
-                          group log by log.IP into g
-                          select new { IP = g.Key, listaLogow = g };
-
-            var maxIp = from ip in listaIp
-                        orderby ip.listaLogow.Count() descending
-                        select ip;
-            var wynik = maxIp.Take(3);
+            var wynik = ips.Take(3);
 
             foreach (var ip in wynik)
             {
-                Console.WriteLine("{0}, {1}", ip.IP, ip.listaLogow.Count());
+                Console.WriteLine("{0}, {1}", ip.ip, ip.count);
             }
             Console.ReadKey();
         }
