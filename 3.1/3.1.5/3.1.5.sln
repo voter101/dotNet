@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3.1.5", "3.1.5\3.1.5.csproj", "{AEF21135-C47C-4D09-B8CC-B215A1A4D728}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "serwer", "serwer\serwer.csproj", "{5E289761-1661-46A9-B2D7-996D519F24C9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AEF21135-C47C-4D09-B8CC-B215A1A4D728}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEF21135-C47C-4D09-B8CC-B215A1A4D728}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEF21135-C47C-4D09-B8CC-B215A1A4D728}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEF21135-C47C-4D09-B8CC-B215A1A4D728}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E289761-1661-46A9-B2D7-996D519F24C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E289761-1661-46A9-B2D7-996D519F24C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E289761-1661-46A9-B2D7-996D519F24C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E289761-1661-46A9-B2D7-996D519F24C9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
