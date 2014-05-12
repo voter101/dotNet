@@ -1,0 +1,5 @@
+C:\Users\Paweł\Documents\GitHub\dotNet\3.2\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+C:\Users\Paweł\Documents\GitHub\dotNet\3.2\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+C:\Users\Paweł\Documents\GitHub\dotNet\3.2\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+C:\Users\Paweł\Documents\GitHub\dotNet\3.2\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+C:\Users\Paweł\Documents\GitHub\dotNet\3.2\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb

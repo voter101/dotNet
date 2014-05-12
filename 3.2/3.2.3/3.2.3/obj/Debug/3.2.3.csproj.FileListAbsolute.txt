@@ -1,0 +1,9 @@
+C:\Users\Paweł\Documents\GitHub\dotNet\3.2\3.2.3\3.2.3\bin\Debug\3.2.3.exe.config
+C:\Users\Paweł\Documents\GitHub\dotNet\3.2\3.2.3\3.2.3\bin\Debug\3.2.3.exe
+C:\Users\Paweł\Documents\GitHub\dotNet\3.2\3.2.3\3.2.3\bin\Debug\3.2.3.pdb
+C:\Users\Paweł\Documents\GitHub\dotNet\3.2\3.2.3\3.2.3\obj\Debug\3.2.3.csprojResolveAssemblyReference.cache
+C:\Users\Paweł\Documents\GitHub\dotNet\3.2\3.2.3\3.2.3\obj\Debug\_3._2._3.Form1.resources
+C:\Users\Paweł\Documents\GitHub\dotNet\3.2\3.2.3\3.2.3\obj\Debug\_3._2._3.Properties.Resources.resources
+C:\Users\Paweł\Documents\GitHub\dotNet\3.2\3.2.3\3.2.3\obj\Debug\3.2.3.csproj.GenerateResource.Cache
+C:\Users\Paweł\Documents\GitHub\dotNet\3.2\3.2.3\3.2.3\obj\Debug\3.2.3.exe
+C:\Users\Paweł\Documents\GitHub\dotNet\3.2\3.2.3\3.2.3\obj\Debug\3.2.3.pdb
