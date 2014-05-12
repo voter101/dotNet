@@ -8,39 +8,40 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Drawing.Drawing2D;
-using System.Threading;
 
 namespace _3._2._3
 {
     public partial class Form1 : Form
     {
+        Timer timer;
         private Zegar zegar = new Zegar();
         public Form1()
         {
             InitializeComponent();
-            
+            timer = new Timer();
+            timer.Tick += new EventHandler(Timer_Tick);
+            timer.Interval = 1000;
+            timer.Start();
+
+            this.SetStyle(ControlStyles.UserPaint, true);
+            this.SetStyle(ControlStyles.AllPaintingInWmPaint, true);
+            this.SetStyle(ControlStyles.DoubleBuffer, true);
         }
 
-        private void rysujZegar(Graphics g)
+        void Timer_Tick(object sender, EventArgs e)
         {
-              
-            rysujMinutowa(g);
-            rysujGodzinowa(g);
-            rysujSekundowa(g);
-            g.Dispose();
+            this.rysujZegar();
         }
 
-        private void Form1_Paint(object sender, PaintEventArgs e)
+        private void rysujZegar()
         {
             Graphics g = Graphics.FromHwnd(this.Handle);
             g.Clear(Color.White);
             g.DrawEllipse(Pens.Black, 50, 50, this.Width - 150, this.Height - 150);
-            while (true)
-            {
-                Thread.Sleep(1000);
-                rysujZegar(g);
-            }
-            
+            rysujMinutowa(g);
+            rysujGodzinowa(g);
+            rysujSekundowa(g);
+            g.Dispose();
         }
         private void rysujMinutowa(Graphics g)
         {
@@ -61,6 +62,12 @@ namespace _3._2._3
             Point srodek = new Point((this.Width - 150) / 2 + 50, (this.Height - 150) / 2 + 50);
             Point wskazowka = zegar.wyliczWspolrzedneSekundowej(srodek, this.Width / 3);
             g.DrawLine(new Pen(Color.Black, 1), srodek, wskazowka);
+
+        }
+
+        private void Form1_Paint(object sender, PaintEventArgs e)
+        {
+            
 
         }
 
