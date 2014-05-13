@@ -11,6 +11,7 @@ using System.Drawing.Drawing2D;
 
 namespace _3._2._3
 {
+    // Można dorysowac godziny aczkolwiek przeszło za 2 pkt bez godzin bo w sumie bardzije chodzilo o rysowanie wskazówek
     public partial class Form1 : Form
     {
         Timer timer;
